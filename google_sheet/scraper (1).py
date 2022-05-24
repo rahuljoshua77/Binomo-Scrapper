@@ -135,7 +135,7 @@ def getCoinData():
     df = df[::-1]
     To_SpreadSheet(df)
 
-
+sleep(1) 
 while True:
     try:
         getCoinData()
